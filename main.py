@@ -5,7 +5,7 @@ def firstNonRepeatingCharacter(string):
     occurs only once. If the input string doesn't have any non-repeating characters, your function should return -1.
     """
     # Big O Notation
-    # O(n) | O(1) Space
+    # O(n) | O(1) Spac
     character_frequency = {}
     for character in string:
         character_frequency[character] = character_frequency.get(character, 0) + 1
